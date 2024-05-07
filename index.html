@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - Inicia sesión o regístrate</title>
+    <link rel="stylesheet" href="/build/css/index.css">
+    <link rel="shortcut icon" href="/build/img/icono.ico" type="image/x-icon">
+</head>
+
+<body>
+    <main class="contenedor">
+        <div class="login">
+            <div class="derecho">
+
+                <!-- Logotipo -->
+                <img src="/build/img/facebook-logo.webp" alt="Logotipo" class="logotipo">
+                <!-- Heading -->
+                <h1>Inicios de sesión recientes</h1>
+                <!-- Mensaje -->
+                <p class="span">Haz click en tu foto o agrega una cuenta</p>
+                <!-- Tarjeta de perfil -->
+                <div class="card-perfil">
+                    <div class="card-perfil__imagen">
+                        <img src="/build/img/perfil.webp" alt="Perfil">
+                    </div>
+                    <div class="card-perfil__usuario">
+                        <p class="usuario">Sebastian</p>
+                    </div>
+                </div>
+            </div>
+            <div class="izquierdo">
+                <div class="card">
+                    <form method="post" class="form-login">
+                        <input autocomplete="email" type="email" name="email" id="email" class="form-login__input"
+                            placeholder="Correo electrónico o número de teléfono">
+                        <input autocomplete="current-password" type="password" name="password" id="password"
+                            class="form-login__input" placeholder="Contraseña">
+                        <input type="submit" value="Iniciar Sesion" class="boton boton-inicio">
+                    </form>
+                    <div class="card__accion">
+                        <a href="#">¿Olvidaste tu contraseña?</a>
+                    </div>
+                    <a href="" class="boton boton-crear">Crear cuenta nueva</a>
+                </div>
+                <div class="mensaje">
+                    <a href="">Crea una cuenta</a>
+                    <p> para una celebridad, una marca o un negocio</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+<script src="/build/js/app.js"></script>
+
+</html>
